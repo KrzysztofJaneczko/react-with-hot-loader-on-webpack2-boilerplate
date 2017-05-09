@@ -1,0 +1,31 @@
+{
+  "name": "webpack2-react-boilerplate",
+  "version": "1.0.0",
+  "description": "Webpack 2 + React config ready for action",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --hot --inline --progress",
+    "build": "NODE_ENV=production webpack"
+  },
+  "author": "Krzysztof Janeczko",
+  "license": "WTFPL",
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2017": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "css-loader": "^0.28.0",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "postcss-loader": "^1.3.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "style-loader": "^0.16.1",
+    "webpack": "^2.3.2",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-hot-middleware": "^2.18.0"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  }
+}
